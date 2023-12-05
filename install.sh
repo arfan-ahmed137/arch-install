@@ -2,6 +2,7 @@
 
 echo "Welcome to arch installtion helper"
 echo "\nIf you haven't partitioned the disk yet, please partition it first\nOnce partitioned edit the variables in the .config file\nONLY THEN THIS SCRIPT WILL WORK"
+echo "For partitioning run - cfdisk\nCheck the partition using - lsblk"
 
 function setup_partitions(){
   local BOOR_PART=${1}
